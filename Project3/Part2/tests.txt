@@ -1,0 +1,68 @@
+Script started on 2025-09-29 10:33:40+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="219" LINES="20"]
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project3/Part2 [0;36m([1;31mmain[0;36m) [0m$ [7m./spellchecker[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./spellchecker
+[A
+[?2004lEnter the name of the file that contains words to check: report      myrerp  port.txt
+
+The following words in the file "myreport.txt" are not spelled correctly:
+Stude
+Reseach
+Resul
+Outpt
+
+Thanks for using the spell checker system.
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project3/Part2 [0;36m([1;31mmain[0;36m) [0m$ [7m./spellchecker[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./spellchecker
+[A
+[?2004lEnter the name of the file that contains words to check: empty/ .txt
+
+The following words in the file "empty.txt" are not spelled correctly:
+(No spelling errors found.)
+
+Thanks for using the spell checker system.
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project3/Part2 [0;36m([1;31mmain[0;36m) [0m$ [7m./spellchecker[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./spellchecker
+[A
+[?2004lEnter the name of the file that contains words to check: correct.txt
+
+The following words in the file "correct.txt" are not spelled correctly:
+(No spelling errors found.)
+
+Thanks for using the spell checker system.
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project3/Part2 [0;36m([1;31mmain[0;36m) [0m$ [7m./spellchecker[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./spellchecker
+[A
+[?2004lEnter the name of the file that contains words to check: nofile.txt
+
+The following words in the file "nofile.txt" are not spelled correctly:
+(No spelling errors found.)
+
+Thanks for using the spell checker system.
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project3/Part2 [0;36m([1;31mmain[0;36m) [0m$ [7mStude[27m
+[7mReseach[27m
+[7mResul[27m
+[7mOutpt[27m
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CStude
+Reseach
+Resul
+Outpt
+[K[A[C[C[C[C[C[K[K[K[K[K[K[A[C[C[C[C[C[K[K[K[K[K[K[A[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[7m./spellchecker[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./spellchecker
+[A
+[?2004lEnter the name of the file that contains words to check: nofile.txt
+
+The following words in the file "nofile.txt" are not spelled correctly:
+thisfileisnotindictionary
+nonsenseword
+anotherwrongword
+
+Thanks for using the spell checker system.
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project3/Part2 [0;36m([1;31mmain[0;36m) [0m$ [7m./spellchecker[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./spellchecker
+[A
+[?2004lEnter the name of the file that contains words to check: myreports.txt
+Error: Cannot open input file.
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project3/Part2 [0;36m([1;31mmain[0;36m) [0m$ my[K[K[?2004l
+exit
+
+Script done on 2025-09-29 10:36:56+00:00 [COMMAND_EXIT_CODE="1"]

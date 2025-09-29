@@ -1,22 +1,27 @@
 /**
  * @file SpellChecker.cpp
- * @brief Spell checker program using DoublyLinkedBag as dictionary.
+ * @brief A spell checker program that uses DoublyLinkedBag as a dictionary.
  *
- * The program:
- *  1. Loads a dictionary of lowercase words into a DoublyLinkedBag.
- *  2. Prompts user for the name of an input text file.
- *  3. Reads words from the file, converts them to lowercase.
- *  4. Prints words not found in dictionary as misspelled.
+ * Program workflow:
+ *   1. Loads words from a dictionary file into a DoublyLinkedBag (all lowercase).
+ *   2. Prompts the user for an input text file.
+ *   3. Reads each word from the input file, converts it to lowercase.
+ *   4. Prints words not found in the dictionary as "misspelled".
  *
  * Example run:
- *  Enter the name of the file that contains words to check: myreport.txt
- *  The following words in the file "myreport.txt" are not spelled correctly:
- *  Stude
- *  Reseach
+ *   Enter the name of the file that contains words to check: myreport.txt
  *
- * @author Dinesh Seveti
- * @course CSCI 301
- * @date Fall 2025
+ *   The following words in the file "myreport.txt" are not spelled correctly:
+ *   Stude
+ *   Reseach
+ *   Resul
+ *   Outpt
+ *
+ *   Thanks for using the spell checker system.
+ *
+ * Author: Dinesh Seveti
+ * Course: CSCI 301
+ * Date: Fall 2025
  */
 
 #include <iostream>
@@ -24,13 +29,14 @@
 #include <string>
 #include <cctype>
 #include "DoublyLinkedBag.h"
+
 using namespace std;
 
 /**
  * Converts a string to lowercase.
  * @param word The input string.
  * @pre None.
- * @post Returns the string converted to lowercase.
+ * @post Returns the lowercase version of the string.
  */
 string toLowerCase(const string& word) {
     string result;
@@ -41,10 +47,11 @@ string toLowerCase(const string& word) {
 }
 
 /**
- * Main driver for spell checker.
- * @pre dictionary.txt must exist and contain lowercase words.
- * @pre User provides a valid input filename when prompted.
- * @post Program prints words not contained in dictionary.
+ * Main driver for the spell checker program.
+ * @pre "dictionary.txt" must exist in the current directory with lowercase words.
+ * @pre The user must provide a valid input filename.
+ * @post Outputs all misspelled words from the input file.
+ * @return 0 upon successful execution, nonzero if file errors occur.
  */
 int main() {
     DoublyLinkedBag<string> dictionary;
@@ -53,7 +60,7 @@ int main() {
     string dictFile = "dictionary.txt";
     ifstream dictStream(dictFile);
     if (!dictStream) {
-        cerr << "Error: Cannot open dictionary file.\n";
+        cerr << "Error: Cannot open dictionary file." << endl;
         return 1;
     }
 
@@ -63,27 +70,34 @@ int main() {
     }
     dictStream.close();
 
-    // Prompt user for file
+    // Ask user for file to check
     string inputFile;
     cout << "Enter the name of the file that contains words to check: ";
     cin >> inputFile;
+
     ifstream inFile(inputFile);
     if (!inFile) {
-        cerr << "Error: Cannot open input file.\n";
+        cerr << "Error: Cannot open input file." << endl;
         return 1;
     }
 
-    cout << "\nThe following words in the file \"" << inputFile 
+    cout << "\nThe following words in the file \"" << inputFile
          << "\" are not spelled correctly:\n";
 
+    bool foundMisspelled = false;
     while (inFile >> word) {
         string lower = toLowerCase(word);
         if (!dictionary.contains(lower)) {
             cout << word << endl;
+            foundMisspelled = true;
         }
     }
     inFile.close();
 
-    cout << "\nThanks for using the spell checker system.\n";
+    if (!foundMisspelled) {
+        cout << "(No spelling errors found.)" << endl;
+    }
+
+    cout << "\nThanks for using the spell checker system." << endl;
     return 0;
 }
