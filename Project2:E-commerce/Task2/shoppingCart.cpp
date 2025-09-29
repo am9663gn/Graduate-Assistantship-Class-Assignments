@@ -1,6 +1,6 @@
 /**
  * @file shoppingCart.cpp
- * @brief Implementation of ShoppingCart class.
+ * @brief Implementation file for ShoppingCart class.
  */
 
 #include "shoppingCart.h"
@@ -12,20 +12,22 @@ double ShoppingCart::getTotalPrice() const {
 }
 
 bool ShoppingCart::add(const Item& item) {
-    Bag::add(item);
-    totalPrice += item.getPrice() * item.getQuantity();
-    return true;
+    bool added = Bag<Item>::add(item);
+    if (added) {
+        totalPrice += item.getPrice() * item.getQuantity();
+    }
+    return added;
 }
 
 bool ShoppingCart::remove(const Item& item) {
-    if (Bag::remove(item)) {
+    bool removed = Bag<Item>::remove(item);
+    if (removed) {
         totalPrice -= item.getPrice() * item.getQuantity();
-        return true;
     }
-    return false;
+    return removed;
 }
 
 void ShoppingCart::clear() {
-    Bag::clear();
+    Bag<Item>::clear();
     totalPrice = 0.0;
 }

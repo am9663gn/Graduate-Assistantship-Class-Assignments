@@ -1,0 +1,27 @@
+
+Welcome to XXX SHOPPING CENTER.
+Enter the item you selected as the following order:
+name unitPrice quantity
+Sweater 34 5
+Want to continue y/n-->y
+Pant 5   213  5 
+Want to continue y/n-->y
+Suir   hir rts 32 5
+Want to continue y/n-->n
+
+Here is your order:
+-------------------------------------------------
+Name                Unit_Price     Quantity  
+The total charge is $0.00
+-------------------------------------------------
+Want to modify your order? y/n-->n
+
+Here is your updated order:
+-------------------------------------------------
+Name                Unit_Price     Quantity  
+The total charge is $0.00
+-------------------------------------------------
+Thanks for shopping in XXX SHOPPING CENTER.
+
+exit
+
