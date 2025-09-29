@@ -1,4 +1,4 @@
-# Graduate Assistant – St. Cloud State University (CIS Department)
+Graduate Assistant – St. Cloud State University (CIS Department)
 
 ## 📌 Overview
 This repository documents my work, learning, and contributions as a **Graduate Assistant (GA)** at the Department of Computing, Informatics & Data Science (CIS), St. Cloud State University.  
