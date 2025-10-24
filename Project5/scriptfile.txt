@@ -1,0 +1,29 @@
+Script started on 2025-10-24 23:21:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="180" LINES="20"]
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project5 [0;36m([1;31mmain[0;36m) [0m$ int main() {#include "InfixCalculator.h"[9P<iostream>/**[K[1Pls/**#include <iostream>"InfixCalculator.h"[16Pint main() {[K./calc
+[?2004l=== Infix Expression Calculator ===
+
+Enter infix expression (or 'exit' to quit): 2+3
+Result: 5
+
+Enter infix expression (or 'exit' to quit): 2+3*4
+Result: 14
+
+Enter infix expression (or 'exit' to quit): (2+3)*4
+Result: 20
+
+Enter infix expression (or 'exit' to quit): (9-3)/(2+1)
+Result: 2
+
+Enter infix expression (or 'exit' to quit): 3*/4
+Invalid or unbalanced expression. Please try again.
+
+Enter infix expression (or 'exit' to quit): 9/(3-3(^[[3~      )
+Result: Error: Division by zero
+
+Enter infix expression (or 'exit' to quit): exit
+
+Exiting calculator. Goodbye!
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/Graduate-Assistantship-Class-Assignments/Project5 [0;36m([1;31mmain[0;36m) [0m$ [?2004l
+exit
+
+Script done on 2025-10-24 23:23:29+00:00 [COMMAND_EXIT_CODE="0"]
